@@ -1,0 +1,9 @@
+{
+  "name": "batterywise-static",
+  "private": true,
+  "version": "0.3.0",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test ../tests/web_model.test.cjs"
+  }
+}

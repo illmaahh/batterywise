@@ -1,0 +1,6 @@
+{
+  "framework": "other",
+  "installCommand": "echo No dependencies to install",
+  "buildCommand": "cd web && node build.mjs",
+  "outputDirectory": "web/dist"
+}
