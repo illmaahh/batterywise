@@ -8,6 +8,8 @@ The workbench compares no storage with small, medium, large and custom batteries
 
 ## Run the website
 
+https://illmaahh.github.io/batterywise/
+
 Open `web/index.html` directly, or serve the folder locally:
 
 ```sh
