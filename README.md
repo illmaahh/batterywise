@@ -34,3 +34,7 @@ cd web && node --test ../tests/web_model.test.cjs && node build.mjs
 ```
 
 A six-item contribution roadmap is on the [website](web/index.html#good-first-issues) and in [docs/good-first-issues.md](docs/good-first-issues.md). The project is licensed under MIT.
+
+## Deploy with GitHub Pages
+
+The repository includes a GitHub Actions workflow that builds `web/dist` and publishes it on every push to `main`. After pushing this repository to GitHub, open **Settings → Pages** and select **GitHub Actions** as the build and deployment source. The site URL will be `https://<your-github-username>.github.io/batterywise/`.
