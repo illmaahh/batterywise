@@ -12,3 +12,7 @@ test = ["pytest>=8"]
 data = ["openpyxl>=3.1"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+include = ["batterywise*"]
+
