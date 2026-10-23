@@ -37,4 +37,4 @@ A six-item contribution roadmap is on the [website](web/index.html#good-first-is
 
 ## Deploy with GitHub Pages
 
-The repository includes a GitHub Actions workflow that builds `web/dist` and publishes it on every push to `main`. After pushing this repository to GitHub, open **Settings → Pages** and select **GitHub Actions** as the build and deployment source. The site URL will be `https://<your-github-username>.github.io/batterywise/`.
+The repository includes a GitHub Actions workflow that builds `web/dist` and publishes it on every push to `main`. GitHub Pages is configured to deploy through Actions. Visit the live site at [illmaahh.github.io/batterywise](https://illmaahh.github.io/batterywise/).
